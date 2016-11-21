@@ -1,10 +1,9 @@
 PhpDealModule
 -------------
 
-The PhpDealModule adds support for Design by Contract using 
-Go! AOP Framework for Zend Framework 2 applications.
+The PhpDealModule adds support for [PhpDeal](https://github.com/lisachenko/php-deal) for Zend Framework 2 applications.
 
-This will also make use of the Zend Framework 2 implementation of goaop.
+This will also make use of the [goaop-zf2-module](https://github.com/goaop/goaop-zf2-module).
 So you make use of a more simpler installation using modules.
 
 Installation
