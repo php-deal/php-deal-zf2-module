@@ -1,0 +1,23 @@
+{
+    "name": "icanhazstring/php-deal-zf2",
+    "description": "ZF2 implementation for lisachenko/php-deal",
+    "require": {
+        "goaop/goaop-zf2-module": "dev-master",
+        "lisachenko/php-deal": "^0.4.1"
+    },
+    "require-dev": {
+        "zendframework/zendframework": "^2.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andreas Frömer",
+            "email": "andreas.froemer@check24.de"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PhpDeal\\ZF2\\PhpDealModule\\" : "src/"
+        }
+    }
+}
