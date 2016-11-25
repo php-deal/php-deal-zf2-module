@@ -1,9 +1,9 @@
 PhpDealModule
 -------------
 
-The PhpDealModule adds support for [PhpDeal](https://github.com/lisachenko/php-deal) for Zend Framework 2 applications.
+The PhpDealModule adds support for [PhpDeal](https://github.com/php-deal/framework) for Zend Framework 2 applications.
 
-This will also make use of the [goaop-zf2-module](https://github.com/goaop/goaop-zf2-module).
+This will also make use of the [goaop/goaop-zf2-module](https://github.com/goaop/goaop-zf2-module).
 So you make use of a more simpler installation using modules.
 
 Installation
@@ -13,7 +13,7 @@ PhpDealModule can be easily installend using composer. Just
 download the bundle with dependencies by running the command
 
 ```bash
-$ composer require icanhazstring/php-deal-zf2
+$ composer require php-deal/php-deal-zf2-module
 ```
 
 Add the `PhpDeal\ZF2\PhpDealModule` to your list of modules in the config/application.config.php `modules` array:
@@ -42,8 +42,7 @@ Next step you need to adjust the `includePaths` from `Go\ZF2\GoAopModule` to wor
         ...
         
         'includePaths' => [
-            $basicDirectory . '/module/Application/src/Application/Aop/Aspect',
-            $basicDirectory . '/module/Application/src/Application/Contracts
+            $basicDirectory . '/module'
         ]
         
         ...
