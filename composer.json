@@ -3,7 +3,7 @@
     "description": "ZF2 implementation for lisachenko/php-deal",
     "require": {
         "goaop/goaop-zf2-module": "dev-master",
-        "lisachenko/php-deal": "^0.4.1"
+        "lisachenko/php-deal": "^1.0.0"
     },
     "require-dev": {
         "zendframework/zendframework": "^2.0"
